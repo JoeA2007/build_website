@@ -1,5 +1,6 @@
 body{
-   background-color: blanchedalmond;
+   color: #A0522D;
+   font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -16,7 +17,7 @@ opacity: 0.5;
 
 }
 
-
+ 
 p{
 display: flex;
 }
@@ -27,11 +28,28 @@ display: flex;
 }
 
 
-#skills{
-
+.navbar{
+display: flex;
+padding: 4px;
+margin: auto;
+background-color: #FFFDD0;
+color: #A0522D;
+position: sticky; top:0;
+margin-bottom: 20px;
 }
 
-#hidden{
-    display: none;
+
+.navbar a:hover{
+    background-color: #8B5c2a;
+    color: white;
+    border-radius: 10px;
 }
 
+
+.navbar a{
+    padding: 10px 20px;
+    color: #A0522D;
+    text-decoration: none;
+    margin: 0px 10px;
+    transition: all 0.3s ease-in-out;
+}
